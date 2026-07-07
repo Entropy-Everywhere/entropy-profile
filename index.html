@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="./script.js" async defer></script>
+    </head>
+    <body>
+        <header style="text-align: center;">
+            <h1>EntropyEverywhere</h1>
+            <h3>Shiney_Jackalope</h3>
+        </header>
+        <br>
+        <main style="text-align: center;">
+            <div class="container">
+                <a class="btn" href="/names.html">Names</a>
+                <a class="btn" href="/prns.html">Pronouns</a> <br><br>
+                <a class="btn" href="/sonas.html">Sonas</a>
+            </div>
+            <br>
+            <div class="container">
+                <a class="btn">Do Not Interact List</a>
+                <a class="btn">Before You Interact List</a>
+            </div>
+            <br>
+            <div class="section-divider"></div><br>
+            <div class="container">
+                <h3>Socials</h3>
+                <div class="section-divider"></div>
+                <a class="btn" href="https://entropyeverywhere.tumblr.com/?source=share Tumblr">Tumblr - @EntropyEverywhere</a><br><br>
+                <a class="btn" href="https://youtube.com/@shineyjackalope">Youtube - @shiney_jackalope</a><br><br>
+                <a class="btn" href="https://pinterest.com/entropyeverywhere">Pinterest - @entorpyeverywhere</a><br><br>
+                <a class="btn" href="https://x.com/EtrpyEverywhere">twitter - @EtrpyEverywhere</a><br><br>
+                <a class="btn" href="https://www.tiktok.com/@entropy.everywher?_r=1&_t=ZT-967FC8ltnZO">Tik Tok - @entropy.everywher</a><br><br>
+            </div>
+            <br><br>
+            <div class="container">
+                <h3>Projects</h3>
+
+                <div class="section-divider"></div>
+
+                <button class="accordion">Games</button>
+                <div class="panel" style="display: none;">
+                    <br>
+                    <a class="btn" href="https://theshowawaitsofficialwiki.miraheze.org/wiki/Main_Page">The Show Awaits</a> <br><br>
+                    <a class="btn" href="https://harmonica.miraheze.org/wiki/Main_Page">Harmonia</a><br><br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Insecta_Apostate">Insecta Apostate</a>
+                    <br><br>
+                </div>            
+
+                <button class="accordion">Shows</button>
+                <div class="panel" style="display: none;">
+                    <br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/The_Blacksite">The Blacksite</a><br><br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Entropy_Route">Entropy Route</a><br><br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Luna_Cantabit">Luna Cantabit</a><br><br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Red_Tides">Red Tides</a>
+                    <br><br>
+                </div>
+                
+                <button class="accordion">Stories</button>
+                <div class="panel" style="display: none;">
+                    <br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Wings_Of_The_Mind">Wings Of The Mind</a><br><br>
+                    <br><br>
+                </div>
+
+                <button class="accordion">Apps/Websites</button>
+                <div class="panel">
+                    <br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/System_Cloud">System Cloud</a><br><br>
+                    <a class="btn" href="https://entropicproductions.miraheze.org/wiki/Character_Creations">Character Creations</a><br><br>
+                    <br><br>
+                </div>
+            </div>
+        </main>
+
+        <div>
+
+        </div>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+    </script>
+    </body>
+</html>
