@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BEFORE YOU INTERACT!</title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="./script.js" async defer></script>
+    </head>
+    <body>
+        <header style="text-align: center;">
+            <h1>EntropyEverywhere</h1>
+            <h3>Shiney_Jackalope</h3> <br>
+            <a class="btn" href="/index.html">Return</a>
+        </header>
+        <br>
+        <main style="text-align: center;">
+            <div class="container">
+                <h3>Definitions</h3>
+                <div class="section-divider"></div>
+
+                    <button class="accordion">Alterhuman</button>
+                    <div class="panel" style="display: none;">
+                        <p>A subsection of Therianathropy that includes fictional/otherwordly creatures.</p>
+                    </div>            
+
+                    <button class="accordion">Fictionkin</button>
+                    <div class="panel" style="display: none;">
+                        <p>Someone who is a fictional character in a past life/alternative universe. Usually identifying <em>as</em> a character or species. Not to be confused with an IRL who believes they are a fictional character in the present moment in a delusional sense.</p>
+                    </div>
+                    
+                    <button class="accordion">Otherhearted</button>
+                    <div class="panel" style="display: none;">
+                        <p>Simular to fictionkin, but you identify <em>WITH</em> a character or species rather than <em>AS</em> a character.</p>
+                    </div>
+
+                    <button class="accordion">Therian</button>
+                    <div class="panel">
+                        <p>Someone who has a special connection to a animal species or collection of animals on a spiritual, mental, or physical level; In the sense of being that animal/species in a past life or alternative universe.</p>
+                    </div>
+
+                    <button class="accordion">Yumeship/Selfship</button>
+                    <div class="panel">
+                        <p>Someone who ships themselves with a fictional character or collection of fictional characters, often using their own oc in place of themselves or act like they're a real life partner (which is a bit more on the unhealthy side-).</p>
+                    </div>
+
+                    <button class="accordion">Persona</button>
+                    <div class="panel">
+                        <p>A character one uses to represent themselves.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+        </script>
+</html>
